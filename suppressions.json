@@ -19,12 +19,6 @@
       "count": 3
     }
   },
-  "apps/inspect/src/app/flow/FlowButton.tsx": {
-    "@typescript-eslint/no-floating-promises": {
-      "count": 1,
-      "undescribed": 1
-    }
-  },
   "apps/inspect/src/app/log-list/grid/columns/hooks.tsx": {
     "@typescript-eslint/no-unnecessary-condition": {
       "count": 6
@@ -77,10 +71,6 @@
     "@typescript-eslint/no-unnecessary-condition": {
       "count": 2,
       "undescribed": 2
-    },
-    "react-hooks/exhaustive-deps": {
-      "count": 1,
-      "undescribed": 1
     }
   },
   "apps/inspect/src/app/log-view/LogViewContainer.tsx": {
@@ -168,12 +158,6 @@
       "count": 2
     }
   },
-  "apps/inspect/src/app/navbar/ViewSegmentedControl.tsx": {
-    "@typescript-eslint/no-floating-promises": {
-      "count": 3,
-      "undescribed": 3
-    }
-  },
   "apps/inspect/src/app/plan/DatasetDetailView.tsx": {
     "@typescript-eslint/no-unnecessary-condition": {
       "count": 1,
@@ -204,12 +188,6 @@
       "count": 1
     }
   },
-  "apps/inspect/src/app/routing/logNavigation.ts": {
-    "@typescript-eslint/no-floating-promises": {
-      "count": 2,
-      "undescribed": 2
-    }
-  },
   "apps/inspect/src/app/routing/sampleNavigation.ts": {
     "@ts-expect-error": {
       "count": 1
@@ -221,13 +199,6 @@
     }
   },
   "apps/inspect/src/app/samples-panel/SampleDetailView.tsx": {
-    "@ts-expect-error": {
-      "count": 6
-    },
-    "@typescript-eslint/no-floating-promises": {
-      "count": 2,
-      "undescribed": 2
-    },
     "tsmono/no-raw-use-effect": {
       "count": 1
     }
@@ -239,7 +210,7 @@
   },
   "apps/inspect/src/app/samples/descriptor/samplesDescriptor.tsx": {
     "@ts-expect-error": {
-      "count": 8
+      "count": 1
     }
   },
   "apps/inspect/src/app/samples/descriptor/score/ListScoreDescriptor.tsx": {
@@ -483,22 +454,6 @@
     "@typescript-eslint/no-base-to-string": {
       "count": 1,
       "undescribed": 1
-    }
-  },
-  "apps/inspect/src/client/remote/remoteZipFile.ts": {
-    "@ts-expect-error": {
-      "count": 3
-    }
-  },
-  "apps/inspect/src/client/remote/zstd-worker.ts": {
-    "@ts-expect-error": {
-      "count": 3
-    },
-    "@typescript-eslint/no-unnecessary-condition": {
-      "count": 1
-    },
-    "@typescript-eslint/no-unsafe-type-assertion": {
-      "count": 2
     }
   },
   "apps/inspect/src/client/utils/normalize.ts": {
@@ -1196,11 +1151,6 @@
       "undescribed": 1
     }
   },
-  "packages/inspect-components/src/theme/ThemeToggle.tsx": {
-    "tsmono/no-raw-use-effect": {
-      "count": 1
-    }
-  },
   "packages/inspect-components/src/transcript-search/referenceLabels.ts": {
     "@typescript-eslint/no-unnecessary-condition": {
       "count": 1,
@@ -1232,7 +1182,7 @@
   },
   "packages/inspect-components/src/transcript/event/EventNavsPicker.tsx": {
     "tsmono/no-raw-use-effect": {
-      "count": 2
+      "count": 1
     }
   },
   "packages/inspect-components/src/transcript/event/EventPanel.tsx": {
@@ -1426,7 +1376,7 @@
       "undescribed": 1
     },
     "tsmono/no-raw-use-effect": {
-      "count": 5
+      "count": 4
     }
   },
   "packages/react/src/components/CopyButton.tsx": {
@@ -1522,7 +1472,7 @@
       "count": 1
     },
     "tsmono/no-raw-use-effect": {
-      "count": 2
+      "count": 1
     }
   },
   "packages/react/src/components/NavPills.tsx": {
@@ -1613,12 +1563,9 @@
   },
   "packages/react/src/hooks/useScrollDirection.ts": {
     "react-hooks/exhaustive-deps": {
-      "count": 2
+      "count": 1
     },
     "react-hooks/refs": {
-      "count": 2
-    },
-    "react-hooks/use-memo": {
       "count": 1
     }
   },
